@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CONSULTAR NOTAS</title>
+	</head>
+	
+	<style>
+		table,th,td {
+		  border : 1px solid black;
+		  border-collapse: collapse;
+		}
+		th,td {
+		  padding: 5px;
+		}
+	</style>
+	
+	<body>			
+		<fieldset>
+			<legend>Informe os dados:</legend>			
+				<br>Login:<br>
+				<input type="text" name="login" id="id_login" value="">
+				<br>
+				Senha:<br>
+				<input type="text" name="senha" id="id_senha" value="">
+				<br><br>
+				<button type="button" onclick="loadDoc()">Conectar</button>
+				<br><br>
+			</legend>
+		</fieldset>
+		
+		<h2 id="mensagem"></h2>
+		<table id="tabelaDados"></table>
+		
+		<script type="text/javascript" src="app.js"></script> 
+	</body>
+</html>
