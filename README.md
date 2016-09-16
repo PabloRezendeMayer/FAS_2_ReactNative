@@ -1,4 +1,4 @@
-# FAS_2_ReactNative
+# FAS_2_ReactNativeCordova
 Trabalho de FAS_2 com React Native
 
 login: Pablo
